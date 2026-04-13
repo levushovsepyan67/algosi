@@ -9,11 +9,11 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>lab5alg</name>
-    <description>Лабораторная работа №5: взвешенный связный граф, Дейкстра для всех пар, график времени</description>
+    <description>Лабораторная работа №6: BST и AVL, сравнение времени вставки, поиска и удаления</description>
 
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -32,7 +32,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.12.1</version>
                 <configuration>
-                    <release>21</release>
+                    <release>17</release>
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
